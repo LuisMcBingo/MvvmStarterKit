@@ -25,7 +25,7 @@ uses
   FMX.Controls.Presentation,
   FMX.Layouts,
   FMX.ActnList,
-  FMX.DialogService,
+  //FMX.DialogService,
   Grijjy.Mvvm.Controls.Fmx, // MUST be listed AFTER all other FMX.* units!
   Grijjy.Mvvm.Views.Fmx,
   ViewModel.Albums;
@@ -98,6 +98,7 @@ end;
 procedure TViewAlbums.DeleteAlbum;
 begin
   Assert(Assigned(ViewModel.SelectedAlbum));
+  {
   TDialogService.MessageDialog(
     Format('Are you sure you want to delete album "%s"?', [ViewModel.SelectedAlbum.Title]),
     TMsgDlgType.mtConfirmation, [TMsgDlgBtn.mbYes, TMsgDlgBtn.mbNo],
@@ -107,6 +108,7 @@ begin
       if (AResult = mrYes) then
         ViewModel.DeleteAlbum;
     end);
+    }
 end;
 
 procedure TViewAlbums.ListViewAlbumsChange(Sender: TObject);

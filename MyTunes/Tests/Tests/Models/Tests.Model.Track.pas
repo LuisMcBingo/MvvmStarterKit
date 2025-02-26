@@ -35,7 +35,8 @@ uses
 procedure TTestTrack.CheckTrackProperties(const ATrack: TAlbumTrack);
 begin
   Assert.AreEqual('Track name', ATrack.Name);
-  Assert.AreEqual(Double(3.2), ATrack.Duration.TotalMinutes);
+  //Assert.AreEqual(Double(3.2), ATrack.Duration.TotalMinutes);
+  Assert.IsTrue( 3.2 = ATrack.Duration.TotalMinutes );
   Assert.AreEqual(42, ATrack.TrackNumber);
   Assert.AreEqual('Genre1' + sLineBreak + 'Genre2', ATrack.Genres);
 end;

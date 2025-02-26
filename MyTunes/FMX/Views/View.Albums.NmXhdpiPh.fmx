@@ -11,7 +11,6 @@ inherited ViewAlbums_NmXhdpiPh: TViewAlbums_NmXhdpiPh
       inherited SpeedButtonMaster: TSpeedButton
         Size.Width = 48.000000000000000000
         Size.Height = 48.000000000000000000
-        Visible = True
       end
       inherited LabelAlbumDetails: TLabel
         Size.Width = 226.000000000000000000
@@ -48,16 +47,16 @@ inherited ViewAlbums_NmXhdpiPh: TViewAlbums_NmXhdpiPh
     inherited ToolBarMaster: TToolBar
       Size.Height = 48.000000000000000000
       inherited LabelAlbums: TLabel
-        Size.Width = 150.000000000000000000
+        Size.Width = 149.000000000000000000
         Size.Height = 48.000000000000000000
       end
       inherited SpeedButtonAddAlbum: TSpeedButton
-        Position.X = 154.000000000000000000
+        Position.X = 153.000000000000000000
         Size.Width = 48.000000000000000000
         Size.Height = 48.000000000000000000
       end
       inherited SpeedButtonDeleteAlbum: TSpeedButton
-        Position.X = 202.000000000000000000
+        Position.X = 201.000000000000000000
         Size.Width = 48.000000000000000000
         Size.Height = 48.000000000000000000
       end

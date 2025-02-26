@@ -29,7 +29,7 @@ uses
   FMX.ListBox,
   FMX.ScrollBox,
   FMX.Memo,
-  FMX.DialogService,
+ // FMX.DialogService,
   Grijjy.Mvvm.Controls.Fmx, // MUST be listed AFTER all other FMX.* units!
   Grijjy.Mvvm.Views.Fmx,
   ViewModel.Tracks;
@@ -92,6 +92,7 @@ uses
 procedure TViewTracks.DeleteTrack;
 begin
   Assert(Assigned(ViewModel.SelectedTrack));
+{
   TDialogService.MessageDialog(
     Format('Are you sure you want to delete track "%s"?', [ViewModel.SelectedTrack.Name]),
     TMsgDlgType.mtConfirmation, [TMsgDlgBtn.mbYes, TMsgDlgBtn.mbNo],
@@ -101,6 +102,7 @@ begin
       if (AResult = mrYes) then
         ViewModel.DeleteTrack;
     end);
+  }
 end;
 
 procedure TViewTracks.SetupView;

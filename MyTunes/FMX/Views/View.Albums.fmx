@@ -40,7 +40,6 @@ object ViewAlbums: TViewAlbums
         Size.Height = 36.000000000000000000
         Size.PlatformDefault = False
         Text = 'Album Details'
-        TabOrder = 0
       end
       object ButtonEditAlbum: TButton
         Action = ActionEditAlbum
@@ -53,6 +52,7 @@ object ViewAlbums: TViewAlbums
         Size.Height = 36.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 1
+        Visible = True
       end
     end
     object RectangleBackground: TRectangle
@@ -127,14 +127,14 @@ object ViewAlbums: TViewAlbums
     Size.PlatformDefault = False
     TabOrder = 0
     object ToolBarMaster: TToolBar
-      Size.Width = 250.000000000000000000
+      Size.Width = 249.000000000000000000
       Size.Height = 44.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 0
       object LabelAlbums: TLabel
         Align = Client
         Margins.Left = 4.000000000000000000
-        Size.Width = 194.000000000000000000
+        Size.Width = 193.000000000000000000
         Size.Height = 44.000000000000000000
         Size.PlatformDefault = False
         StyleLookup = 'toollabel'
@@ -145,26 +145,28 @@ object ViewAlbums: TViewAlbums
         Align = Right
         Enabled = True
         ImageIndex = -1
-        Position.X = 198.000000000000000000
+        Position.X = 197.000000000000000000
         Size.Width = 26.000000000000000000
         Size.Height = 44.000000000000000000
         Size.PlatformDefault = False
         ParentShowHint = False
         ShowHint = True
         StyleLookup = 'additembutton'
+        Visible = True
       end
       object SpeedButtonDeleteAlbum: TSpeedButton
         Action = ActionDeleteAlbum
         Align = Right
         Enabled = True
         ImageIndex = -1
-        Position.X = 224.000000000000000000
+        Position.X = 223.000000000000000000
         Size.Width = 26.000000000000000000
         Size.Height = 44.000000000000000000
         Size.PlatformDefault = False
         ParentShowHint = False
         ShowHint = True
         StyleLookup = 'deleteitembutton'
+        Visible = True
       end
     end
     object ListViewAlbums: TListView
@@ -173,7 +175,7 @@ object ViewAlbums: TViewAlbums
       HeaderAppearanceClassName = 'TListHeaderObjects'
       FooterAppearanceClassName = 'TListHeaderObjects'
       Align = Client
-      Size.Width = 250.000000000000000000
+      Size.Width = 249.000000000000000000
       Size.Height = 436.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 1

@@ -9,7 +9,6 @@ inherited ViewAlbums_iPhone4in: TViewAlbums_iPhone4in
       Size.Width = 320.000000000000000000
       inherited SpeedButtonMaster: TSpeedButton
         Size.Height = 44.000000000000000000
-        Visible = True
       end
       inherited LabelAlbumDetails: TLabel
         Size.Width = 150.000000000000000000
@@ -43,17 +42,21 @@ inherited ViewAlbums_iPhone4in: TViewAlbums_iPhone4in
     Visible = False
     inherited ToolBarMaster: TToolBar
       inherited LabelAlbums: TLabel
-        Size.Width = 162.000000000000000000
+        Size.Width = 161.000000000000000000
       end
       inherited SpeedButtonAddAlbum: TSpeedButton
         Margins.Left = 8.000000000000000000
         Margins.Right = 8.000000000000000000
-        Position.X = 216.000000000000000000
+        Position.X = 215.000000000000000000
+        Position.Y = 9.000000000000000000
+        Size.Height = 26.000000000000000000
       end
       inherited SpeedButtonDeleteAlbum: TSpeedButton
         Margins.Left = 8.000000000000000000
         Margins.Right = 8.000000000000000000
-        Position.X = 174.000000000000000000
+        Position.X = 173.000000000000000000
+        Position.Y = 9.000000000000000000
+        Size.Height = 26.000000000000000000
       end
     end
     inherited ListViewAlbums: TListView

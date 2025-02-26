@@ -17,13 +17,6 @@ object ViewDemo: TViewDemo
     TabIndex = 2
     TabOrder = 0
     TabPosition = PlatformDefault
-    Sizes = (
-      640s
-      454s
-      640s
-      454s
-      640s
-      454s)
     object TabItem1: TTabItem
       CustomIcon = <
         item
@@ -39,40 +32,38 @@ object ViewDemo: TViewDemo
       ExplicitSize.cy = 26.000000000000000000
       object Panel1: TPanel
         Align = Contents
-        Size.Width = 640.000000000000000000
-        Size.Height = 454.000000000000000000
+        Size.Width = 50.000000000000000000
+        Size.Height = 50.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 0
         object Panel2: TPanel
           Align = Top
-          Size.Width = 640.000000000000000000
+          Size.Width = 50.000000000000000000
           Size.Height = 34.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 0
         end
         object tvDemo: TTreeView
           Align = Client
-          Size.Width = 640.000000000000000000
-          Size.Height = 386.000000000000000000
+          Size.Width = 50.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 1
           OnChange = tvDemoChange
-          Viewport.Width = 636.000000000000000000
-          Viewport.Height = 382.000000000000000000
+          Viewport.Width = 30.000000000000000000
+          Viewport.Height = 0.000000000000000000
         end
         object Panel3: TPanel
           Align = Bottom
-          Position.Y = 420.000000000000000000
-          Size.Width = 640.000000000000000000
+          Position.Y = 16.000000000000000000
+          Size.Width = 50.000000000000000000
           Size.Height = 34.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 2
           object lblDisplay: TLabel
             Align = Contents
-            Size.Width = 640.000000000000000000
+            Size.Width = 50.000000000000000000
             Size.Height = 34.000000000000000000
             Size.PlatformDefault = False
-            TabOrder = 0
           end
         end
       end
@@ -133,7 +124,6 @@ object ViewDemo: TViewDemo
           Size.Height = 17.000000000000000000
           Size.PlatformDefault = False
           Text = 'Choose:'
-          TabOrder = 1
         end
       end
       object Panel6: TPanel
@@ -148,7 +138,6 @@ object ViewDemo: TViewDemo
           Size.Width = 640.000000000000000000
           Size.Height = 34.000000000000000000
           Size.PlatformDefault = False
-          TabOrder = 0
         end
       end
     end

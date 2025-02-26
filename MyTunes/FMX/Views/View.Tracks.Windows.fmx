@@ -6,8 +6,8 @@ inherited ViewTracks_Windows: TViewTracks_Windows
       Viewport.Height = 392.000000000000000000
       inherited ListBoxItemGenres: TListBoxItem
         inherited MemoGenres: TMemo
-          Viewport.Width = 262.000000000000000000
-          Viewport.Height = 69.000000000000000000
+          Viewport.Width = 258.000000000000000000
+          Viewport.Height = 65.000000000000000000
         end
       end
     end
